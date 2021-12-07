@@ -20,6 +20,3 @@ const DB_PASSWORD = 'boardgameZXC123';
   providers: [AppService],
 })
 export class AppModule {}
-
-// TODO: dokonczyc crud tutorial
-// TODO: utworzyc schemat bazy danych
