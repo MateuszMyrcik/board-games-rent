@@ -1,0 +1,99 @@
+{
+  "games": [
+    {
+      "category": "Fantasy",
+      "description": "Gloomhaven is a game of Euro-inspired tactical combat in a persistent world of shifting motives. Players will take on the role of a wandering adventurer with their own special set of skills and their own reasons for traveling to this dark corner of the world. Players must work together out of necessity to clear out menacing dungeons and forgotten ruins. In the process, they will enhance their abilities with experience and loot, discover new locations to explore and plunder, and expand an ever-branching story fueled by the decisions they make.",
+      "designer": "Isaac Childres",
+      "difficultyLevel": "Medium",
+      "image": "https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__imagepage/img/pBaOL7vV402nn1I5dHsdSKsFHqA=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2437871.jpg",
+      "playTime": {
+        "from": 60,
+        "to": 120
+      },
+      "playersNumb": {
+        "from": 1,
+        "to": 4
+      },
+      "prize": 80,
+      "reservation": 0,
+      "suggestAge": 14,
+      "title": "Gloomhaven"
+    },
+    {
+      "category": "Strategy",
+      "description": "Pandemic Legacy is a co-operative campaign game, with an overarching story-arc played through 12-24 sessions, depending on how well your group does at the game. At the beginning, the game starts very similar to basic Pandemic, in which your team of disease-fighting specialists races against the clock to travel around the world, treating disease hotspots while researching cures for each of four plagues before they get out of hand.",
+      "designer": "Rob Daviau",
+      "difficultyLevel": "Medium",
+      "image": "https://cf.geekdo-images.com/-Qer2BBPG7qGGDu6KcVDIw__imagepage/img/qZybAu8uJ9_sZlU2A65DIF6Y2Zw=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2452831.png",
+      "playTime": {
+        "from": 60,
+        "to": 90
+      },
+      "playersNumb": {
+        "from": 2,
+        "to": 4
+      },
+      "prize": 70,
+      "reservation": 0,
+      "suggestAge": 13,
+      "title": "Pandemic Legacy: Season 1"
+    },
+    {
+      "category": "Strategy",
+      "description": "Brass: Birmingham is an economic strategy game sequel to Martin Wallace' 2007 masterpiece, Brass. Brass: Birmingham tells the story of competing entrepreneurs in Birmingham during the industrial revolution, between the years of 1770-1870.",
+      "designer": "Martin Wallace",
+      "difficultyLevel": "Medium",
+      "image": "https://cf.geekdo-images.com/x3zxjr-Vw5iU4yDPg70Jgw__itemrep/img/giNUMut4HAl-zWyQkGG0YchmuLI=/fit-in/246x300/filters:strip_icc()/pic3490053.jpg",
+      "playTime": {
+        "from": 60,
+        "to": 90
+      },
+      "playersNumb": {
+        "from": 2,
+        "to": 4
+      },
+      "prize": 70,
+      "reservation": 0,
+      "suggestAge": 13,
+      "title": "Brass: Birmingham "
+    },
+    {
+      "category": "Strategy",
+      "description": "In the 2400s, mankind begins to terraform the planet Mars. Giant corporations, sponsored by the World Government on Earth, initiate huge projects to raise the temperature, the oxygen level, and the ocean coverage until the environment is habitable. In Terraforming Mars, you play one of those corporations and work together in the terraforming process, but compete for getting victory points that are awarded not only for your contribution to the terraforming, but also for advancing human infrastructure throughout the solar system, and doing other commendable things.",
+      "designer": "Jacob Fryxelius",
+      "difficultyLevel": "Medium",
+      "image": "https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__itemrep/img/IwUOQfhP5c0KcRJBY4X_hi3LpsY=/fit-in/246x300/filters:strip_icc()/pic3536616.jpg",
+      "playTime": {
+        "from": 120,
+        "to": 120
+      },
+      "playersNumb": {
+        "from": 1,
+        "to": 5
+      },
+      "prize": 100,
+      "reservation": 0,
+      "suggestAge": 12,
+      "title": "Terraforming Mars"
+    },
+    {
+      "category": "Strategy",
+      "description": "Twilight Imperium (Fourth Edition) is a game of galactic conquest in which three to six players take on the role of one of seventeen factions vying for galactic domination through military might, political maneuvering, and economic bargaining. Every faction offers a completely different play experience, from the wormhole-hopping Ghosts of Creuss to the Emirates of Hacan, masters of trade and economics. These seventeen races are offered many paths to victory, but only one may sit upon the throne of Mecatol Rex as the new masters of the galaxy.",
+      "designer": "Dane Beltrami",
+      "difficultyLevel": "Hard",
+      "image": "https://cf.geekdo-images.com/_Ppn5lssO5OaildSE-FgFA__itemrep/img/rJfEVG0xStfVWbevNWfHBo4ZVrQ=/fit-in/246x300/filters:strip_icc()/pic3727516.jpg",
+      "playTime": {
+        "from": 240,
+        "to": 480
+      },
+      "playersNumb": {
+        "from": 2,
+        "to": 4
+      },
+      "prize": 70,
+      "reservation": 0,
+      "suggestAge": 14,
+      "title": "Twilight Imperium: Fourth Edition"
+    }
+  ]
+}
