@@ -19,6 +19,7 @@ export class ProductsController {
 
   @Post()
   create(@Body() createProductDto: CreateProductDto) {
+    console.log(createProductDto);
     return this.productsService.create(createProductDto);
   }
 
@@ -27,21 +28,18 @@ export class ProductsController {
     return this.productsService.findAll();
   }
 
-  @Get(':body')
-  findOne(@Param('body') body: string) {
-    return this.productsService.findOne(body);
+  @Get(':id')
+  findOne(@Param('id') id: string) {
+    return this.productsService.findOne(id);
   }
 
-  @Put(':body')
-  update(
-    @Param('body') body: string,
-    @Body() updateProductDto: UpdateProductDto,
-  ) {
-    return this.productsService.updateOne(body, updateProductDto);
+  @Put(':id')
+  update(@Param('id') id: string, @Body() updateProductDto: UpdateProductDto) {
+    return this.productsService.updateOne(id, updateProductDto);
   }
 
-  @Delete(':body')
-  delete(@Param('body') body: string) {
-    return this.productsService.deleteOne(body);
+  @Delete(':id')
+  delete(@Param('id') id: string) {
+    return this.productsService.deleteOne(id);
   }
 }

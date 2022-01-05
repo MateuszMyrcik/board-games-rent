@@ -1,5 +1,4 @@
 export class CreateProductDto {
-  id: string;
   designer: string;
   playersNumb: {
     from: number;
