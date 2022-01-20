@@ -16,4 +16,5 @@ export class CreateProductDto {
   category: string;
   difficultyLevel: number;
   body: string;
+  isRented: boolean;
 }

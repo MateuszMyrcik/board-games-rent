@@ -42,7 +42,7 @@ export class ProductsService {
     );
   }
 
-  async deleteOne(body: string) {
-    return this.productModel.deleteOne({ body });
+  async deleteOne(id: string) {
+    return this.productModel.deleteOne({ _id: id });
   }
 }

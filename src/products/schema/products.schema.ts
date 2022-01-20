@@ -47,6 +47,9 @@ export class Product {
 
   @Prop()
   body: string;
+
+  @Prop()
+  isRentend: boolean;
 }
 
 export const ProductSchema = SchemaFactory.createForClass(Product);
