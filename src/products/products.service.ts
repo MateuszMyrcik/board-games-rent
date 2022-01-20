@@ -31,13 +31,14 @@ export class ProductsService {
     return this.productModel.find();
   }
 
-  async findOne(body: string) {
-    return this.productModel.findOne({ body });
+  async findOne(id: string) {
+    return this.productModel.findOne({ _id: id });
   }
 
-  async updateOne(body: string, updateProductDto: UpdateProductDto) {
+  async updateOne(id: string, updateProductDto: UpdateProductDto) {
+    console.log(id, updateProductDto);
     return this.productModel.updateOne(
-      { body },
+      { _id: id },
       { $set: { ...updateProductDto } },
     );
   }

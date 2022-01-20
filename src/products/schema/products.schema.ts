@@ -49,7 +49,7 @@ export class Product {
   body: string;
 
   @Prop()
-  isRentend: boolean;
+  isRented: boolean;
 }
 
 export const ProductSchema = SchemaFactory.createForClass(Product);
