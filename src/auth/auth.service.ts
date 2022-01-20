@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { ConsoleLogger, Injectable, BadRequestException } from '@nestjs/common';
 import { UsersService } from 'src/users/users.service';
 import { JwtService } from '@nestjs/jwt';
 import * as bcrypt from 'bcrypt';
@@ -31,6 +31,10 @@ export class AuthService {
   }
 
   async register(userData: any): Promise<any> {
+    if (await this.usersService.findOne(userData.username)) {
+      throw new BadRequestException('Invalid user');
+    }
+
     return await this.usersService.createOne(userData);
   }
 }
