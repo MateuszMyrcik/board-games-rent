@@ -15,6 +15,7 @@ const DB_PASSWORD = 'boardgameZXC123';
     MongooseModule.forRoot(
       `mongodb+srv://mati:${DB_PASSWORD}@cluster0.gs8zv.mongodb.net/board-games-db?retryWrites=true&w=majority`,
     ),
+
     ProductsModule,
     AuthModule,
     UsersModule,
